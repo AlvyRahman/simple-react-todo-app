@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: repeating-radial-gradient(
+    farthest-side at 5px 5px,
+    #553c9a,
+    #ee4b2b,
+    #553c9a
+  );
+}
+
+.item-label {
+  font-size: 1.1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: repeating-radial-gradient(
+    farthest-side at 5px 5px,
+    #553c9a,
+    #ee4b2b,
+    #553c9a
+  );
+}
